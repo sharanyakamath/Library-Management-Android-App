@@ -1,29 +1,29 @@
 package com.example.palak.loginregister;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.TextView;
 
-public class UserAreaActivity extends AppCompatActivity {
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.EditText;
+
+/**
+ * Created by palak on 8/3/18.
+ */
+
+public class UserAreaActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_area);
+        setContentView(R.layout.activity_main);
 
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
         String username = intent.getStringExtra("username");
-//        int age = intent.getIntExtra("age", -1);
-
-        TextView tvWelcomeMsg = (TextView) findViewById(R.id.tvWelcomeMsg);
+        String email = intent.getStringExtra("email");
         EditText etUsername = (EditText) findViewById(R.id.etUsername);
-//        EditText etAge = (EditText) findViewById(R.id.etAge);
+        EditText etEmail = (EditText) findViewById(R.id.etEmail_id);
+        EditText etName = (EditText) findViewById(R.id.etName);
 
-//         Display user details
-        String message = name + username + " welcome ";
-        tvWelcomeMsg.setText(message);
+        // Display user details
         etUsername.setText(username);
-//        etAge.setText(age + "");
     }
 }

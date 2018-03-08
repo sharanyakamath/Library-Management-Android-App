@@ -28,15 +28,14 @@
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:text="Fine"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etFine"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content" /> -->
 
     <Button
         android:id="@+id/bLogout"

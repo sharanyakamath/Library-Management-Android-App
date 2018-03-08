@@ -1,19 +1,20 @@
 package com.example.palak.loginregister;
-import android.app.AlertDialog;
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.toolbox.Volley;
+        import android.app.AlertDialog;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.support.v7.app.AppCompatActivity;
+        import android.view.View;
+        import android.widget.Button;
+        import android.widget.EditText;
+        import android.widget.TextView;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+        import com.android.volley.RequestQueue;
+        import com.android.volley.Response;
+        import com.android.volley.toolbox.Volley;
+
+        import org.json.JSONException;
+        import org.json.JSONObject;
 
 public class LoginActivity extends AppCompatActivity {
     @Override
@@ -23,8 +24,8 @@ public class LoginActivity extends AppCompatActivity {
 
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-        final TextView tvRegisterLink = (TextView) findViewById(R.id.tvRegisterLink);
-        final Button bLogin = (Button) findViewById(R.id.bSignIn);
+        final TextView tvRegisterLink = (TextView) findViewById(R.id.tvregister);
+        final Button bLogin = (Button) findViewById(R.id.bLogin);
 
         tvRegisterLink.setOnClickListener(new View.OnClickListener() {
             @Override
