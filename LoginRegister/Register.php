@@ -1,15 +1,15 @@
 <?php
     require("password.php");
     $connect = mysqli_connect("localhost", "id4957652_logreg", "LoginRegister", "id4957652_loginregister");
-    $roll_no = $_POST["roll_no"];
+    $name = $_POST["name"];
     $username = $_POST["username"];
     $email = $_POST["email"];
     $password = $_POST["password"];
      function registerUser() {
-        global $connect, $roll_no, $username, $email, $password;
+        global $connect, $name, $username, $email, $password;
         $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-        $statement = mysqli_prepare($connect, "INSERT INTO user (roll_no, username, email, password) VALUES (?, ?, ?, ?)");
-        mysqli_stmt_bind_param($statement, "siss", $roll_no, $username, $email, $passwordHash);
+        $statement = mysqli_prepare($connect, "INSERT INTO user (name, username, email, password) VALUES (?, ?, ?, ?)");
+        mysqli_stmt_bind_param($statement, "siss", $name, $username, $email, $passwordHash);
         mysqli_stmt_execute($statement);
         mysqli_stmt_close($statement);     
     }

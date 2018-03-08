@@ -21,7 +21,7 @@ public class UserAreaActivity extends AppCompatActivity {
 //        EditText etAge = (EditText) findViewById(R.id.etAge);
 
 //         Display user details
-        String message = name + " welcome to your user area";
+        String message = name + username + " welcome ";
         tvWelcomeMsg.setText(message);
         etUsername.setText(username);
 //        etAge.setText(age + "");
