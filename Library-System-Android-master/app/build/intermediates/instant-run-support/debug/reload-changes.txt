@@ -1,0 +1,3 @@
+CHANGED,C:\Users\Mike\Downloads\Otter_Library_System\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\edu1\csumb\mike\Library_System\Date$override.class
+CHANGED,C:\Users\Mike\Downloads\Otter_Library_System\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Mike\Downloads\Otter_Library_System\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\edu1\csumb\mike\Library_System\PlaceHold$override.class

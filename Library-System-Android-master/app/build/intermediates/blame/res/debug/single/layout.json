@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\createaccount.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\createaccount.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookresults.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\bookresults.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginadmin.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\loginadmin.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addbook.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\addbook.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cancelhold.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\cancelhold.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inventory.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\inventory.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/placehold.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/placehold.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/addbook.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/addbook.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/inventory.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/inventory.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/bookresults.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/bookresults.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/confirm.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/confirm.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/dropoff.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/dropoff.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/cancelhold.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/cancelhold.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\placehold.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\placehold.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropoff.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\dropoff.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirm.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\confirm.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/managesystem.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/managesystem.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/createaccount.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/createaccount.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\managesystem.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\managesystem.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/app/build/intermediates/res/merged/debug/layout/loginadmin.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/app/src/main/res/layout/loginadmin.xml"
+    },
+    {
+        "merged": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "/home/palak/Downloads/Library-System-Android-master/C:\\Users\\Mike\\Downloads\\Otter_Library_System\\app\\src\\main\\res\\layout\\login.xml"
+    }
+]
