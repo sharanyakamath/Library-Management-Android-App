@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/palak/AndroidStudioProjects/Library-System-Android-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/home/palak/AndroidStudioProjects/Library-System-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f0896a31f468d0b806e53c83fd42dde35684ce87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3a6c59f58c1497506af276f9f27cd8872a99cdef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6c11e59c281fe4bd780a66a19695bd70d5fe91b6">
+        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_99a8367752eb9ed00dfc2b98bd84188f28a00546/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/palak/AndroidStudioProjects/Library-System-Android-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8d60be671d18d00c905f8af4de0b3009f045e38e">
+        <dex dex="/home/palak/AndroidStudioProjects/Library-System-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b08a1b2f379ee039f70f12915bcea241b0a2ba3/classes.dex" />
+    </item>
+
+</items>

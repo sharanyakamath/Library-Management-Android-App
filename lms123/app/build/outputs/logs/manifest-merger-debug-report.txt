@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:2:1-112:12
+	package
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:5:5-110:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/palak/.android/build-cache/de5b0267a0a99d380a4dabf1850531de5be7e2ec/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/palak/.android/build-cache/5b3956a2cd651a226507dddfa873775a7ee4282d/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/palak/.android/build-cache/c7075a31a1863e40f10b29ba3fdc5395deceffb9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/palak/.android/build-cache/b576f1d7d9907e4eb04afd942c04b55299e9bd61/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:8:9-56
+activity#edu1.csumb.mike.Library_System.MainActivity
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:9:9-17:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:11:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:10:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:15:27-74
+activity#edu1.csumb.mike.Library_System.CreateClass
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:19:13-40
+intent-filter#android.intent.category.LAUNCHER
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:21:13-23:29
+activity#edu1.csumb.mike.Library_System.CancelHold
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:26:13-39
+activity#edu1.csumb.mike.Library_System.ManageSystem
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:32:9-38:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:33:13-41
+activity#edu1.csumb.mike.Library_System.PlaceHold
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:39:9-45:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:40:13-38
+activity#edu1.csumb.mike.Library_System.LoginHold
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:47:13-38
+activity#edu1.csumb.mike.Library_System.DropOff
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:53:9-59:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:54:13-36
+activity#edu1.csumb.mike.Library_System.BookResults
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:60:9-66:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:61:13-40
+activity#edu1.csumb.mike.Library_System.AddBook
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:67:9-73:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:69:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:68:13-36
+activity#edu1.csumb.mike.Library_System.Inventory
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:74:9-80:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:76:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:75:13-38
+activity#edu1.csumb.mike.Library_System.Confirm
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:81:9-87:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:83:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:82:13-36
+activity#edu1.csumb.mike.Library_System.Log
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:88:9-94:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:90:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:89:13-32
+activity#edu1.csumb.mike.Library_System.LoginCancel
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:95:9-101:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:97:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:96:13-40
+activity#edu1.csumb.mike.Library_System.LoginAdmin
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:102:9-108:20
+	android:label
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:104:13-45
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:103:13-39
+activity#edu1.csumb.mike.Library_System.ProfilePage
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:109:9-58
+	android:name
+		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:109:19-46
+uses-sdk
+INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/palak/.android/build-cache/de5b0267a0a99d380a4dabf1850531de5be7e2ec/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/palak/.android/build-cache/5b3956a2cd651a226507dddfa873775a7ee4282d/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/palak/.android/build-cache/c7075a31a1863e40f10b29ba3fdc5395deceffb9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/palak/.android/build-cache/b576f1d7d9907e4eb04afd942c04b55299e9bd61/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
+		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
