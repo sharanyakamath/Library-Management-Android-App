@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h320dp-v13/values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/values-h320dp-v13/values-h320dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            }
+        ]
+    }
+]
