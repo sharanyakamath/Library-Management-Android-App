@@ -98,10 +98,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Intent I = new Intent(getApplicationContext(), CreateClass.class);
             startActivity(I);
         }
-        else if (v.getId() == R.id.placehold_button) {
-            Intent I = new Intent(getApplicationContext(),PlaceHold.class);
-            startActivity(I);
-        }
+//        else if (v.getId() == R.id.placehold_button) {
+//            Intent I = new Intent(getApplicationContext(),PlaceHold.class);
+//            startActivity(I);
+//        }
         else if (v.getId() == R.id.cancelhold_button) {
             Intent I = new Intent(getApplicationContext(),LoginCancel.class);
             startActivity(I);

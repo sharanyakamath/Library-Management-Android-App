@@ -24,12 +24,12 @@
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cancelhold.xml",
-        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\cancelhold.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cancelhold.xml",
+        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\cancelhold.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -88,16 +88,16 @@
         "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\activity_profile_page.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropoff.xml",
-        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\dropoff.xml"
+        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirm.xml",
         "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\confirm.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropoff.xml",
+        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\layout\\dropoff.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

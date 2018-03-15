@@ -74,7 +74,7 @@ public class LoginCancel extends Activity implements View.OnClickListener {
 
         if (v.getId() == R.id.login_button) {
 
-            if(checkFormat(input1)&&checkFormat(input2)) {
+//            if(checkFormat(input1)&&checkFormat(input2)) {
 
 
                 ArrayList<User> users = new ArrayList<User>(db.getAllUsers());
@@ -104,7 +104,7 @@ public class LoginCancel extends Activity implements View.OnClickListener {
                     dlgAlert.setPositiveButton("OK",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
-                                    Intent I = new Intent(getApplicationContext(), CancelHold.class);
+                                    Intent I = new Intent(getApplicationContext(), ProfilePage.class);
 
                                     //***PASS INFO TO RESULTS***
                                     Bundle extraInfo = new Bundle();
@@ -133,59 +133,59 @@ public class LoginCancel extends Activity implements View.OnClickListener {
                     dlgAlert.setCancelable(true);
                     dlgAlert.create().show();
                 }
-            }
-            else{
-                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Your Username or Password are not correctly formatted! Please Retry!");
-                dlgAlert.setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-
-                            }
-                        });
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
-            }
+//            }
+//            else{
+//                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+//                dlgAlert.setMessage("Your Username or Password are not correctly formatted! Please Retry!");
+//                dlgAlert.setPositiveButton("OK",
+//                        new DialogInterface.OnClickListener() {
+//                            public void onClick(DialogInterface dialog, int which) {
+//
+//                            }
+//                        });
+//                dlgAlert.setCancelable(true);
+//                dlgAlert.create().show();
+//            }
         }
 
     }
 
-    public boolean checkFormat(String username){
+//    public boolean checkFormat(String username){
 
-        ArrayList<Character> charList = new ArrayList<Character>();
-        Collections.addAll(charList, '!', '$', '#', '@');
-
-        boolean containsSpecial = false;
-
-        for(Character character: charList) {
-            if (username.contains(Character.toString(character))) {
-                containsSpecial = true;
-            }
-        }
-
-        int numberCharacters = 0;
-
-        if(containsSpecial){
-            for(int i=0; i<username.length();i++){
-                String symbol = String.valueOf(username.charAt(i));
-
-                Pattern pattern = Pattern.compile("[A-z]");
-
-                Matcher matcher = pattern.matcher(symbol);
-
-                if(matcher.matches()){
-                    numberCharacters++;
-                    System.out.println("Match: " + numberCharacters);
-                }
-            }
-        }
-
-        if(numberCharacters>2){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
+//        ArrayList<Character> charList = new ArrayList<Character>();
+//        Collections.addAll(charList, '!', '$', '#', '@');
+//
+//        boolean containsSpecial = false;
+//
+//        for(Character character: charList) {
+//            if (username.contains(Character.toString(character))) {
+//                containsSpecial = true;
+//            }
+//        }
+//
+//        int numberCharacters = 0;
+//
+//        if(containsSpecial){
+//            for(int i=0; i<username.length();i++){
+//                String symbol = String.valueOf(username.charAt(i));
+//
+//                Pattern pattern = Pattern.compile("[A-z]");
+//
+//                Matcher matcher = pattern.matcher(symbol);
+//
+//                if(matcher.matches()){
+//                    numberCharacters++;
+//                    System.out.println("Match: " + numberCharacters);
+//                }
+//            }
+//        }
+//
+//        if(numberCharacters>2){
+//            return true;
+//        }
+//        else {
+//            return false;
+//        }
+//    }
 
 }

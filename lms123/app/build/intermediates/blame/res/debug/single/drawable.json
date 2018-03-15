@@ -16,12 +16,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\admin.png",
-        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\drawable\\admin.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\createaccoutlabel.png",
         "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\drawable\\createaccoutlabel.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\admin.png",
+        "source": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\src\\main\\res\\drawable\\admin.png"
     },
     {
         "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black.png",

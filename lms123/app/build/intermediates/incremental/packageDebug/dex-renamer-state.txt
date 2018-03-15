@@ -1,4 +1,4 @@
-#Thu Mar 15 16:37:49 IST 2018
+#Thu Mar 15 22:22:41 IST 2018
 base.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a0fd9e33322f8e96c450ee81243321afdefe7c7b
 renamed.1=classes.dex
 renamed.0=classes2.dex
