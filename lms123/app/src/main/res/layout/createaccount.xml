@@ -2,22 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
-    android:id="@+id/createaccountlayout">
+    android:id="@+id/createaccountlayout" android:background="@drawable/black">
 
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:id="@+id/imageView"
-        android:src="@drawable/smallerols"
+        android:src="@drawable/vl"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp" />
     <ImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:id="@+id/imageViewcreatelabel"
-        android:src="@drawable/createaccoutlabel"
+        android:src="@drawable/details"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp" />
     <EditText
@@ -30,7 +29,6 @@
         android:layout_centerVertical="true"
         android:lines="1"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/textfield"
         android:textColor="#000000"
         />
 
@@ -45,7 +43,7 @@
         android:layout_centerVertical="true"
         android:lines="1"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/textfield"
+        android:layout_marginTop="10dp"
         android:textColor="#000000"
         />
     <EditText
@@ -58,7 +56,7 @@
         android:layout_centerVertical="true"
         android:lines="1"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/textfield"
+        android:layout_marginTop="10dp"
         android:textColor="#000000"
         />
 
@@ -73,7 +71,6 @@
         android:lines="1"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:background="@drawable/textfield"
         android:textColor="#000000"
         />
 
@@ -82,8 +79,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:background="@drawable/createbutton"
-
+        android:text="REGISTER"
         android:layout_marginTop="20dp" />
 
 

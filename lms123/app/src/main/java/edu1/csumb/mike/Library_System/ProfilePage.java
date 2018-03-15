@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ProfilePage extends AppCompatActivity implements View.OnClickListener{
+public class ProfilePage extends AppCompatActivity{
 
 
     MySQLiteHelper db = new MySQLiteHelper(this);

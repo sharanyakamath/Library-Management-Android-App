@@ -2,27 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
-    android:id="@+id/loginadmin">
+    android:id="@+id/loginadmin" android:background="@drawable/black">
 
 
     <ImageView
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="100dp"
         android:id="@+id/imageView"
-        android:src="@drawable/smallerols"
+        android:src="@drawable/vl"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp" />
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Admin Login"
-        android:id="@+id/textView3"
+    <ImageView
+        android:id="@+id/adminImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:textColor="#000000"
-        android:textSize="16pt" />
+        android:layout_marginTop="20dp"
+        android:src="@drawable/admin" />
+
+
+
 
     <EditText
         android:id="@+id/username_field"
@@ -34,9 +34,8 @@
         android:layout_centerVertical="true"
         android:lines="1"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/textfield"
         android:textColor="#000000"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="5dp" />
 
     <EditText
         android:id="@+id/password_field"
@@ -49,7 +48,6 @@
         android:lines="1"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:background="@drawable/textfield"
         android:textColor="#000000"
         />
 
@@ -58,9 +56,8 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:background="@drawable/login"
-
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:text="LOGIN AS ADMIN"/>
 
 
 

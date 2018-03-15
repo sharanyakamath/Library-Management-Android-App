@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "outputFile": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+                    "file": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
