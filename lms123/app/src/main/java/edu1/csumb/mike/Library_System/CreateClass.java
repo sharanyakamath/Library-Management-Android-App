@@ -83,57 +83,86 @@ public class CreateClass extends Activity implements View.OnClickListener {
         cinput4 = (EditText) findViewById(R.id.email_field);
         input4 = cinput1.getText().toString();
 
-
-        if (v.getId() == R.id.createaccount_button) {
+        if (v.getId() == R.id.help_button)
+        {
+            AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+            dlgAlert.setMessage("Enter your name in the name field\n Enter the username you want to keep for the app\n Enter a valid email id\n Create a strong password at least 6 characters long with at least 1 special character and 1 number");
+            dlgAlert.setPositiveButton("OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent I = new Intent(getApplicationContext(), CreateClass.class);
+                            startActivity(I);
+                        }
+                    });
+            dlgAlert.setCancelable(true);
+            dlgAlert.create().show();
+        }
+        else if (v.getId() == R.id.createaccount_button) {
             //Check if the inputs are formatted correctly and no duplicate accounts
             //uses duplicate Check Method
             //Successful Attempt at making a username
-            if(userDuplicateCheck(input1)) {
-                //Create a new user using the inputs
-                User user = new User(input3, input1, input4, input2);
-                db.addUser(user);
+            if(checkFormat(input2)){
 
-                //Create a timestamp
-                TimeStamp timeStamp = new TimeStamp();
+                if (userDuplicateCheck(input1)) {
+                    //Create a new user using the inputs
+                    User user = new User(input3, input1, input4, input2);
+                    db.addUser(user);
 
-                //Create a new transaction
-                Transaction transactionNew = new Transaction(user.getUsername(),3, timeStamp.getDate(), timeStamp.getTime());
-                db.addTransaction(transactionNew);
+                    //Create a timestamp
+                    TimeStamp timeStamp = new TimeStamp();
 
-                //Alert Success
-                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Successfully Created Account");
-                dlgAlert.setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                Intent I = new Intent(getApplicationContext(), MainActivity.class);
-                                startActivity(I);
-                            }
-                        });
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
+                    //Create a new transaction
+                    Transaction transactionNew = new Transaction(user.getUsername(), 3, timeStamp.getDate(), timeStamp.getTime());
+                    db.addTransaction(transactionNew);
+
+                    //Alert Success
+                    AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+                    dlgAlert.setMessage("Successfully Created Account");
+                    dlgAlert.setPositiveButton("OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    Intent I = new Intent(getApplicationContext(), MainActivity.class);
+                                    startActivity(I);
+                                }
+                            });
+                    dlgAlert.setCancelable(true);
+                    dlgAlert.create().show();
+                }
+                //Second and last chance to create a username for duplicate
+                else if (!userDuplicateCheck(input1) && tryFail < 2) {
+                    tryFail++;
+                    AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+                    dlgAlert.setMessage("Username already Exists, Try once more.");
+                    dlgAlert.setPositiveButton("OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                }
+                            });
+                    dlgAlert.setCancelable(true);
+                    dlgAlert.create().show();
+                }
+                //Exceeds attempts for duplicate username
+                else if (!userDuplicateCheck(input1) && tryFail == 2) {
+                    AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+                    dlgAlert.setMessage("Username already Exists.");
+                    dlgAlert.setPositiveButton("OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    Intent I = new Intent(getApplicationContext(), ProfilePage.class);
+                                    startActivity(I);
+                                }
+                            });
+                    dlgAlert.setCancelable(true);
+                    dlgAlert.create().show();
+                }
             }
-            //Second and last chance to create a username for duplicate
-            else if(!userDuplicateCheck(input1)&&tryFail<2){
-                tryFail++;
+            else {
                 AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Username already Exists, Try once more.");
+                dlgAlert.setMessage("Password should be at least 6 characters long with at least 1 special character and 1 number");
                 dlgAlert.setPositiveButton("OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                            }
-                        });
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
-            }
-            //Exceeds attempts for duplicate username
-            else if(!userDuplicateCheck(input1)&&tryFail==2){
-                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Username already Exists.");
-                dlgAlert.setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                Intent I = new Intent(getApplicationContext(), ProfilePage.class);
+                                Intent I = new Intent(getApplicationContext(), CreateClass.class);
                                 startActivity(I);
                             }
                         });
@@ -141,53 +170,62 @@ public class CreateClass extends Activity implements View.OnClickListener {
                 dlgAlert.create().show();
             }
             //Format is not correct second chance.
-         /*   else if(userDuplicateCheck(input1)&&tryFailFormat<2){
-                tryFailFormat++;
-                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Your Username or Password are not correctly formatted! last chance.");
-                dlgAlert.setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                            }
-                        });
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
-            }
-            //Format is not correct.
-            else if(userDuplicateCheck(input1)&&tryFailFormat==2){
-                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Your Username or Password are not correctly formatted!");
-                dlgAlert.setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                Intent I = new Intent(getApplicationContext(), MainActivity.class);
-                                startActivity(I);
-                            }
-                        });
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
-            }*/
+	    	 /*   else if(userDuplicateCheck(input1)&&tryFailFormat<2){
+	    			tryFailFormat++;
+				AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+				dlgAlert.setMessage("Your Username or Password are not correctly formatted! last chance.");
+				dlgAlert.setPositiveButton("OK",
+						new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int which) {
+							}
+						});
+				dlgAlert.setCancelable(true);
+				dlgAlert.create().show();
+			}
+			//Format is not correct.
+			else if(userDuplicateCheck(input1)&&tryFailFormat==2){
+				AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+				dlgAlert.setMessage("Your Username or Password are not correctly formatted!");
+				dlgAlert.setPositiveButton("OK",
+						new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int which) {
+								Intent I = new Intent(getApplicationContext(), MainActivity.class);
+								startActivity(I);
+							}
+						});
+				dlgAlert.setCancelable(true);
+				dlgAlert.create().show();
+			}*/
         }
     }
 
     //Method to check format for Special characters and atleast 3 Letters
-    /*public boolean checkFormat(String username){
+    public boolean checkFormat(String password){
 
         ArrayList<Character> charList = new ArrayList<Character>();
+        ArrayList<Character> numList = new ArrayList<Character>();
         Collections.addAll(charList, '!', '$', '#', '@');
+        Collections.addAll(numList, '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
 
         //Check for special Character
         boolean containsSpecial = false;
         for(Character character: charList) {
-            if (username.contains(Character.toString(character))) {
+            if (password.contains(Character.toString(character))) {
                 containsSpecial = true;
+            }
+        }
+        //Check for numbers
+        boolean containsNumber = false;
+        for(Character character: numList) {
+            if (password.contains(Character.toString(character))) {
+                containsNumber = true;
             }
         }
         //Check for Letters
         int numberCharacters = 0;
-        if(containsSpecial){
-            for(int i=0; i<username.length();i++){
-                String symbol = String.valueOf(username.charAt(i));
+        if(containsSpecial && containsNumber){
+            for(int i=0; i<password.length();i++){
+                String symbol = String.valueOf(password.charAt(i));
 
                 //REGEX pattern Check
                 Pattern pattern = Pattern.compile("[A-z]");
@@ -200,13 +238,13 @@ public class CreateClass extends Activity implements View.OnClickListener {
             }
         }
 
-        if(numberCharacters>2){
+        if(numberCharacters>5){
             return true;
         }
         else {
             return false;
         }
-    }*/
+    }
 
     //Method to check if username exists
     public boolean userDuplicateCheck(String username){

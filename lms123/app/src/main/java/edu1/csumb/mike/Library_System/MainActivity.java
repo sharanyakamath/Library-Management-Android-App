@@ -63,11 +63,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             db.addUser(chris);
             db.addUser(admin);
         }*/
-       if(users.size()<1)
-       {
-           User admin = new User("!admin2", "!admin2");
-           db.addUser(admin);
-       }
+        if(users.size()<1)
+        {
+            User admin = new User("!admin2", "!admin2");
+            db.addUser(admin);
+        }
     }
 
     @Override
@@ -114,3 +114,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
 }
+

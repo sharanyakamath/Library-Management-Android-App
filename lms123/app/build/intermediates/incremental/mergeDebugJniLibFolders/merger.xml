@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\user\Downloads\Library-Management-Android-App-master\Library-Management-Android-App-master\lms123\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\user\Downloads\Library-Management-Android-App-master\Library-Management-Android-App-master\lms123\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/palak/AndroidStudioProjects/lms123/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/palak/AndroidStudioProjects/lms123/app/src/debug/jniLibs"/></dataSet></merger>

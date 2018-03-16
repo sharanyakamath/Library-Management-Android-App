@@ -74,8 +74,6 @@ public class LoginCancel extends Activity implements View.OnClickListener {
 
         if (v.getId() == R.id.login_button) {
 
-            if(checkFormat(input1)&&checkFormat(input2)) {
-
 
                 ArrayList<User> users = new ArrayList<User>(db.getAllUsers());
 
@@ -121,7 +119,7 @@ public class LoginCancel extends Activity implements View.OnClickListener {
                     dlgAlert.setCancelable(true);
                     dlgAlert.create().show();
                 }
-                if(!contains) {
+                else if(!contains) {
                     AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
                     dlgAlert.setMessage("Sorry The Account Does Not Exist or Passowrd Is Incorrect.");
                     dlgAlert.setPositiveButton("OK",
@@ -133,7 +131,6 @@ public class LoginCancel extends Activity implements View.OnClickListener {
                     dlgAlert.setCancelable(true);
                     dlgAlert.create().show();
                 }
-            }
             else{
                 AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
                 dlgAlert.setMessage("Your Username or Password are not correctly formatted! Please Retry!");

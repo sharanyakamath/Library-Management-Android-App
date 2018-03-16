@@ -1,74 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-master\\Library-Management-Android-App-master\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/color/abc_search_url_text.xml"
     }
 ]

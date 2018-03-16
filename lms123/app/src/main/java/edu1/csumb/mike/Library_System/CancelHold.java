@@ -77,7 +77,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         spinner.setAdapter(titleAdapter);
         spinner.setOnItemSelectedListener(this);
 
-        if(userRentals.size()<=0){
+      /*  if(userRentals.size()<=0){
             AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
             dlgAlert.setMessage("No Active Rentals For This User.\n Press ok to return to main menu!");
             dlgAlert.setPositiveButton("OK",
@@ -89,7 +89,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
                     });
             dlgAlert.setCancelable(true);
             dlgAlert.create().show();
-        }
+        }*/
     }
 
     @Override
