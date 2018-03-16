@@ -148,7 +148,7 @@ public class CreateClass extends Activity implements View.OnClickListener {
                     dlgAlert.setPositiveButton("OK",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
-                                    Intent I = new Intent(getApplicationContext(), ProfilePage.class);
+                                    Intent I = new Intent(getApplicationContext(), MainActivity.class);
                                     startActivity(I);
                                 }
                             });

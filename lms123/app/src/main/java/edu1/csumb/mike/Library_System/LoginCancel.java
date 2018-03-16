@@ -121,7 +121,7 @@ public class LoginCancel extends Activity implements View.OnClickListener {
                 }
                 else if(!contains) {
                     AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                    dlgAlert.setMessage("Sorry The Account Does Not Exist or Passowrd Is Incorrect.");
+                    dlgAlert.setMessage("Sorry The Account Does Not Exist or Password Is Incorrect.");
                     dlgAlert.setPositiveButton("OK",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {

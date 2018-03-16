@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:2:1-112:12
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:2:1-111:12
 	package
 		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest
 		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
 		INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:5:5-110:19
+ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:5:5-109:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/palak/.android/build-cache/de5b0267a0a99d380a4dabf1850531de5be7e2ec/output/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/palak/.android/build-cache/5b3956a2cd651a226507dddfa873775a7ee4282d/output/AndroidManifest.xml:7:5-20
@@ -122,10 +122,6 @@ ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest
 		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:104:13-45
 	android:name
 		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:103:13-39
-activity#edu1.csumb.mike.Library_System.ProfilePage
-ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:109:9-58
-	android:name
-		ADDED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml:109:19-46
 uses-sdk
 INJECTED from /home/palak/AndroidStudioProjects/lms123/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/AndroidManifest.xml:21:5-23:78

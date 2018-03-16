@@ -98,7 +98,6 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -215,6 +214,11 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
                     });
             dlgAlert.setCancelable(true);
             dlgAlert.create().show();
+            if (v.getId() == R.id.logout_button) {
+                Intent I = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(I);
+            }
+
         }
     }
 }
