@@ -44,12 +44,12 @@
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/placehold.png",
@@ -120,12 +120,12 @@
         "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/createaccoutlabel.png"
     },
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/choosedate.png",
-        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/choosedate.png"
-    },
-    {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/choosedate.png",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/choosedate.png"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",

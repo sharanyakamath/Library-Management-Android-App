@@ -60,12 +60,12 @@
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",

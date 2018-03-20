@@ -35,6 +35,8 @@ public class CreateClass extends Activity implements View.OnClickListener {
 
         View CreateButton = findViewById(R.id.createaccount_button);
         CreateButton.setOnClickListener(this);
+        View help = findViewById(R.id.help_button);
+        help.setOnClickListener(this);
 
     }
 
@@ -86,7 +88,7 @@ public class CreateClass extends Activity implements View.OnClickListener {
         if (v.getId() == R.id.help_button)
         {
             AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-            dlgAlert.setMessage("Enter your name in the name field\n Enter the username you want to keep for the app\n Enter a valid email id\n Create a strong password at least 6 characters long with at least 1 special character and 1 number");
+            dlgAlert.setMessage("->Enter your name in the name field\n->Enter the username you want to keep for the app\n->Enter a valid email id\n->Create a strong password at least 6 characters long with at least 1 special character and 1 number");
             dlgAlert.setPositiveButton("OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {

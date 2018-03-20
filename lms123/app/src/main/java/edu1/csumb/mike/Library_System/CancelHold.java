@@ -42,9 +42,12 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cancelhold);
+        TextView main = (TextView) findViewById(R.id.mainText);
 
         View cancel = findViewById(R.id.cancel);
         cancel.setOnClickListener(this);
+        View logout = findViewById(R.id.logout_button);
+        logout.setOnClickListener(this);
 
         //***GET PASSED INFO***
         Bundle extras= getIntent().getExtras();
@@ -64,6 +67,9 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
                     && transactions.get(i).getActive()==1){
                 userRentals.add(new Transaction(transactions.get(i)));
                 titles.add(transactions.get(i).getId()+ " " + transactions.get(i).getTitle() +"Date: "+ transactions.get(i).getDate());
+            }
+            if(transactions.get(i).getUsername().equals(loggedUser)){
+                main.append(transactions.get(i).getUsername());
             }
         }
 
@@ -161,6 +167,19 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
     }
 
     public void onClick(View v) {
+        if (v.getId()==R.id.logout_button) {
+            AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+            dlgAlert.setMessage("Successfully Logged Out");
+            dlgAlert.setPositiveButton("OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent I = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(I);
+                        }
+                    });
+            dlgAlert.setCancelable(true);
+            dlgAlert.create().show();
+        }
 
         if (v.getId() == R.id.cancel) {
 
@@ -214,11 +233,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
                     });
             dlgAlert.setCancelable(true);
             dlgAlert.create().show();
-            if (v.getId() == R.id.logout_button) {
-                Intent I = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(I);
             }
 
         }
     }
-}
