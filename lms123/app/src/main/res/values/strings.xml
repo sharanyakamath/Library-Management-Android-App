@@ -19,7 +19,9 @@
         <item>November</item>
         <item>December</item>
 
+
     </string-array>
+    <string name="search_hint">Search Book</string>
 
     <string-array name="years">
         <item>2015</item>

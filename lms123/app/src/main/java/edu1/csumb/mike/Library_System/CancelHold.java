@@ -44,7 +44,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         setContentView(R.layout.cancelhold);
         TextView main = (TextView) findViewById(R.id.mainText);
 
-        View cancel = findViewById(R.id.cancel);
+        View cancel = findViewById(R.id.cancel);//for search button
         cancel.setOnClickListener(this);
         View logout = findViewById(R.id.logout_button);
         logout.setOnClickListener(this);
@@ -183,7 +183,17 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
 
         if (v.getId() == R.id.cancel) {
 
-            ArrayList<Book> books = new ArrayList<>(db.getAllBooks());
+            AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+            dlgAlert.setPositiveButton("OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent I = new Intent(getApplicationContext(), Inventory.class);
+                            startActivity(I);
+                        }
+                    });
+            dlgAlert.setCancelable(true);
+            dlgAlert.create().show();
+           /* ArrayList<Book> books = new ArrayList<>(db.getAllBooks());
 
             for(int i=0; i<books.size();i++){
                 if(books.get(i).getTitle().equals(bookToCancel)){
@@ -202,32 +212,16 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
 
 
                     db.updateBook(books.get(i));
-                }
-            }
-
-            for(int i=0; i<transactions.size();i++){
-                if(transactions.get(i).getId()==transactionID){
-                    transactions.get(i).setActive(0);
-                    db.updateTransaction(new Transaction(transactions.get(i)));
-                    TimeStamp timeStamp = new TimeStamp();
-
-
-                    Transaction transaction = new Transaction(transactions.get(i).getUsername(), 2,
-                            transactions.get(i).getRentalCost(), transactions.get(i).getTitle(), timeStamp.getDate(),
-                            timeStamp.getTime(), transactions.get(i).getPickUpDate(), transactions.get(i).getDropOffDate(),
-                            transactions.get(i).getPickDayYear(),transactions.get(i).getDropDayYear(),transactions.get(i).getReservation());
-
-                    db.addTransaction(transaction);
-                }
+                }*/
             }
 
             //update the transaction to be 0
             AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-            dlgAlert.setMessage("Hold Has Been Canceled");
+            dlgAlert.setMessage("Search Books");
             dlgAlert.setPositiveButton("OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent I = new Intent(getApplicationContext(), MainActivity.class);
+                            Intent I = new Intent(getApplicationContext(), Inventory.class);
                             startActivity(I);
                         }
                     });
@@ -236,4 +230,3 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
             }
 
         }
-    }
