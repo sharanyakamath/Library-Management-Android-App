@@ -592,7 +592,7 @@ int id imageView 0x7f0d0058
 int id imageViewcreatelabel 0x7f0d0078
 int id info 0x7f0d0095
 int id inventory_button 0x7f0d008a
-int id isbn 0x7f0d0067
+int id isbn 0x7f0d0066
 int id issued_books 0x7f0d0073
 int id line1 0x7f0d0090
 int id line3 0x7f0d0094
@@ -621,7 +621,7 @@ int id parent 0x7f0d0009
 int id parentPanel 0x7f0d0035
 int id password_field 0x7f0d0079
 int id placehold_button 0x7f0d005c
-int id price 0x7f0d0066
+int id price 0x7f0d0067
 int id progress 0x7f0d0062
 int id progress_circular 0x7f0d0005
 int id progress_horizontal 0x7f0d0006

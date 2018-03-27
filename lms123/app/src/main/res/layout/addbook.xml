@@ -39,16 +39,16 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/price"
+        android:id="@+id/isbn"
         android:layout_gravity="center_horizontal"
-        android:hint="Quantity"
+        android:hint="Author ID"
         android:layout_margin="5dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/isbn"
-        android:hint="ISBN"
+        android:id="@+id/price"
+        android:hint="Quantity"
         android:layout_margin="5dp" />
 
     <Button

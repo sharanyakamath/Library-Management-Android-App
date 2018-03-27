@@ -2160,7 +2160,7 @@ containing a value of this type.
         public static final int imageViewcreatelabel=0x7f0d0078;
         public static final int info=0x7f0d0095;
         public static final int inventory_button=0x7f0d008a;
-        public static final int isbn=0x7f0d0067;
+        public static final int isbn=0x7f0d0066;
         public static final int issued_books=0x7f0d0073;
         public static final int line1=0x7f0d0090;
         public static final int line3=0x7f0d0094;
@@ -2189,7 +2189,7 @@ containing a value of this type.
         public static final int parentPanel=0x7f0d0035;
         public static final int password_field=0x7f0d0079;
         public static final int placehold_button=0x7f0d005c;
-        public static final int price=0x7f0d0066;
+        public static final int price=0x7f0d0067;
         public static final int progress=0x7f0d0062;
         public static final int progress_circular=0x7f0d0005;
         public static final int progress_horizontal=0x7f0d0006;

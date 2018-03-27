@@ -85,15 +85,20 @@ public class AddBook extends Activity implements View.OnClickListener {
         boolean bookExists = false;
         if (v.getId() == R.id.addbook_button) {
             for (Book book : books) {
-                if (book.getIsbn().equals(isbn)) {
-                    bookExists = true;
+                if (book.getTitle().equals(title)) {
+                    price=Double.parseDouble(cost);
+                    price+=book.getPrice();
+                    book.setPrice(price);
+                    db.updateBook(book);
+                    bookExists=true;
                     break;
                 }
             }
             //Check for a duplicate book in existing books
             if (bookExists) {
                 AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-                dlgAlert.setMessage("Information is not valid, book already exists");
+                dlgAlert.setMessage("Successfully added book, Check Inventory ");
+                dlgAlert.setTitle("Library Management System");
                 dlgAlert.setPositiveButton("OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
