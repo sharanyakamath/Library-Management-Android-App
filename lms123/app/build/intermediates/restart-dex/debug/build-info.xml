@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="27"
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="2.3.2"
+    timestamp="1522346402953"
+    token="-7210606237337946416"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1522346402953"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+
+</instant-run>

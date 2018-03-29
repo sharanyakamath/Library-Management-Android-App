@@ -1,27 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -32,6 +32,10 @@
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_fade_out.xml"
     },
@@ -40,40 +44,36 @@
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "C:\\home\\palak\\.android\\build-cache\\6b7c7cfb46fba9b5280deb258bbdc434142cca1a\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\91295bafce06a6933525361ca31bdb30e0983593\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",

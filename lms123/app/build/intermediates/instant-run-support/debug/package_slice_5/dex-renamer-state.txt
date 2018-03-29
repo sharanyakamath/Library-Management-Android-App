@@ -1,0 +1,4 @@
+#Thu Mar 29 23:13:21 IST 2018
+base.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
+renamed.0=classes.dex
+file.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

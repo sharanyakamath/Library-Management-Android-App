@@ -2,13 +2,40 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c54e352fb6021c69fa3e46a2642e4a0ebfcbe652\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\1908edaadd55762133f48a38a48fb7f379dbe659\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0da2f8459495e4a30df229e36e0b9a36e496eece">
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6872606d6d52b03e103ed825a10e5c989b517d65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ff0ee825f328878e0951eee22fc013bd40018927">
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b5ba7e621e341497fa9a7c167f013bfb74e4c960\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
-        jar="/home/palak/.android/build-cache/d62388cadc41a565e2e9fa7d2b15d006835c99bb/output/jars/classes.jar"
+        jar="C:\Users\user\.android\build-cache\1908edaadd55762133f48a38a48fb7f379dbe659\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="0da2f8459495e4a30df229e36e0b9a36e496eece">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_a7490a3473725057d16b1fd3e10e1a6176c36d1d.jar" />
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak\Library-Management-Android-App-palak\lms123\app\build\intermediates\pre-dexed\debug\classes_6872606d6d52b03e103ed825a10e5c989b517d65.jar" />
     </item>
 
 </items>

@@ -16,7 +16,7 @@
         android:hint="Name"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="200dp"
         android:lines="1"
         android:layout_gravity="center_horizontal"
         android:textColor="#000000"
@@ -80,6 +80,7 @@
         fancy:fb_radius="30dp"
         fancy:fb_text="REGISTER"
         fancy:fb_textColor="#FFFFFF" />
+
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/help_button"
         android:layout_width="200dp"

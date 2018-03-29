@@ -1700,7 +1700,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "outputFile": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -1712,14 +1712,14 @@
                     "endOffset": 129
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 55,
                         "endLine": 3,
                         "endColumn": 12,
-                        "endOffset": 132
+                        "endOffset": 129
                     }
                 }
             },
