@@ -211,7 +211,7 @@ public class Book {
                 System.out.print(sixteen[i]);
             }
         }
-        return "ID: " + id + "\nTitle: " + title + "\nAuthor: " + author +  "\nISBN: " + isbn +  "\nPrice: " + price +"\n\n\n" +
+        return "ID: " + id + "\nTitle: " + title + "\nAuthor: " + author +  "\nBook ID: " + isbn +  "\nQuantity: " + price +"\n\n\n" +
                getFifteenString() + "\n" + getSixteenString() +"\n";
     }
 

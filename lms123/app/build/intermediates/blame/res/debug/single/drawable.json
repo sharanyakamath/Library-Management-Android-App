@@ -8,10 +8,6 @@
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/welcome.png",
-        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/welcome.png"
-    },
-    {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/admin.png",
         "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/admin.png"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/back.jpg",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/back.jpg"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -88,12 +88,20 @@
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/new1.jpg",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/new1.jpg"
+    },
+    {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/createbutton.png",
         "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/createbutton.png"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/detail.jpg",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/detail.jpg"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
@@ -120,12 +128,16 @@
         "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/createaccoutlabel.png"
     },
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/choosedate.png",
-        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/choosedate.png"
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/add.jpg",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/add.jpg"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/choosedate.png",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/choosedate.png"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -190,6 +202,10 @@
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/create.png",
         "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/create.png"
+    },
+    {
+        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/welcome.jpg",
+        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/drawable/welcome.jpg"
     },
     {
         "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/drawable/log.png",

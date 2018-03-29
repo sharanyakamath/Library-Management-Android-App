@@ -1,49 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/black">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/vl" />
-
-    <Spinner
-        android:id="@+id/transactions_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="33dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/black" />
-
-    <ImageView
-        android:id="@+id/welcome"
-        android:layout_width="215dp"
-        android:layout_height="69dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/welcome" />
+    android:background="@drawable/welcome">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name: "
+        android:text="                                  Name: "
         android:id="@+id/mainText"
-        android:background="#000"
         android:textColor="#FFF"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="200dp"
         android:padding="5dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No of books issued : "
         android:id="@+id/issued_books"
-        android:background="#000"
         android:textColor="#FFF"
         android:layout_marginTop="0dp"
         android:padding="5dp"
@@ -51,27 +26,67 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fine(Rs): "
+        android:text="                                   Fine(Rs): "
         android:id="@+id/fine"
-        android:background="#000"
         android:textColor="#FFF"
         android:layout_marginTop="0dp"
         android:padding="5dp"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
+        android:layout_gravity="" />
+    <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/cancel"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="Search Book"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp" />
-
-    <Button
-        android:id="@+id/logout_button"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:text="LOGOUT"
-        android:layout_marginTop="10dp" />
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Search Book"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/issuebook"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Issue Book"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/logout_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Logout"
+        fancy:fb_textColor="#FFFFFF" />
+    <Spinner
+        android:id="@+id/transactions_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp" />
 </LinearLayout>

@@ -1,39 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="@drawable/black"
+    android:layout_height="match_parent" android:background="@drawable/new1"
     >
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/vl"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
-
-    <Button
+    <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/log_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="200dp"
         android:layout_gravity="center"
-        android:text="TRANSACTION LOG"
-        android:layout_marginTop="60dp" />
-
-    <Button
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="TRANSACTION LOG"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/addbook_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="ADD BOOK"
-        android:layout_marginTop="20dp" />
-
-    <Button
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="ADD BOOK"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/inventory_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="INVENTORY"
-        android:layout_marginTop="20dp" />
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="INVENTORY"
+        fancy:fb_textColor="#FFFFFF" />
 
 </LinearLayout>

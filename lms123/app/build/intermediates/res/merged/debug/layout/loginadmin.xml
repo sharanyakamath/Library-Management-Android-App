@@ -2,27 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/loginadmin" android:background="@drawable/black">
+    android:id="@+id/loginadmin"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/new1">
 
-
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/vl"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
 
     <ImageView
         android:id="@+id/adminImg"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="200dp"
         android:src="@drawable/admin" />
-
-
-
 
     <EditText
         android:id="@+id/username_field"
@@ -50,14 +41,23 @@
         android:layout_marginTop="10dp"
         android:textColor="#000000"
         />
-
-    <Button
+    <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/login_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
         android:layout_marginTop="20dp"
-        android:text="LOGIN AS ADMIN"/>
+        android:layout_gravity="center"
+        fancy:fb_borderColor="#00bfff"
+        fancy:fb_borderWidth="5dp"
+        fancy:fb_defaultColor="#000066"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="LOGIN AS ADMIN"
+        fancy:fb_textColor="#FFFFFF" />
 
 
 

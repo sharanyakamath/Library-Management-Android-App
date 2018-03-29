@@ -46,11 +46,13 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
 
         View cancel = findViewById(R.id.cancel);//for search button
         cancel.setOnClickListener(this);
+        View issuebook = findViewById(R.id.issuebook);//for search button
+        issuebook.setOnClickListener(this);
         View logout = findViewById(R.id.logout_button);
         logout.setOnClickListener(this);
 
         //***GET PASSED INFO***
-        Bundle extras= getIntent().getExtras();
+        Bundle extras = getIntent().getExtras();
         String loggedUser = extras.getString("username");
 
 
@@ -62,13 +64,13 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         titles = new ArrayList<>();
 
         //Go through each transaction and add to rentals and titles if it is active and is of type rental
-        for(int i=0; i<transactions.size();i++){
-            if(transactions.get(i).getUsername().equals(loggedUser)&&transactions.get(i).getTypeNumber()==1
-                    && transactions.get(i).getActive()==1){
+        for (int i = 0; i < transactions.size(); i++) {
+            if (transactions.get(i).getUsername().equals(loggedUser) && transactions.get(i).getTypeNumber() == 1
+                    && transactions.get(i).getActive() == 1) {
                 userRentals.add(new Transaction(transactions.get(i)));
-                titles.add(transactions.get(i).getId()+ " " + transactions.get(i).getTitle() +"Date: "+ transactions.get(i).getDate());
+                titles.add(transactions.get(i).getId() + " " + transactions.get(i).getTitle() + "Date: " + transactions.get(i).getDate());
             }
-            if(transactions.get(i).getUsername().equals(loggedUser)){
+            if (transactions.get(i).getUsername().equals(loggedUser)) {
                 main.append(transactions.get(i).getUsername());
             }
         }
@@ -76,7 +78,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         //Transactions Spinner
         Spinner spinner = (Spinner) findViewById(R.id.transactions_spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<String> titleAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, titles );
+        ArrayAdapter<String> titleAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, titles);
         // Specify the layout to use when the list of choices appears
         titleAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
@@ -104,6 +106,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -129,28 +132,28 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
             String test = item.toString();
 
 
-            for(int i=0; i<userRentals.size(); i++){
+            for (int i = 0; i < userRentals.size(); i++) {
 
-            String compare = userRentals.get(i).getId()+ " " + userRentals.get(i).getTitle() +"Date: "+ userRentals.get(i).getDate();
+                String compare = userRentals.get(i).getId() + " " + userRentals.get(i).getTitle() + "Date: " + userRentals.get(i).getDate();
 
-                System.out.println("COMPARE TESTTEST " +i+ ": |" + compare + "| Item: |" +  item + "|match: " + (compare.equals(test)));
+                System.out.println("COMPARE TESTTEST " + i + ": |" + compare + "| Item: |" + item + "|match: " + (compare.equals(test)));
 
-                if(compare.equals(test)){
+                if (compare.equals(test)) {
                     TextView main = (TextView) findViewById(R.id.mainText);
 
                     main.setText("");
                     main.append("Reservation Number: " + userRentals.get(i).getReservation() + "\n");
                     main.append("Title: " + userRentals.get(i).getTitle() + "\n");
-                    main.append(userRentals.get(i).getType()+"\n");
+                    main.append(userRentals.get(i).getType() + "\n");
                     main.append("Date: " + userRentals.get(i).getDate() + "\n");
                     main.append("Time: " + userRentals.get(i).getTime() + "\n");
                     main.append("Pick Up: " + userRentals.get(i).getPickUpDate() + "\n");
                     main.append("Return: " + userRentals.get(i).getDropOffDate() + "\n");
 
-                    bookToCancel=userRentals.get(i).getTitle();
+                    bookToCancel = userRentals.get(i).getTitle();
 
-                    pickUpDay=userRentals.get(i).getPickDayYear();
-                    dropDay=userRentals.get(i).getDropDayYear();
+                    pickUpDay = userRentals.get(i).getPickDayYear();
+                    dropDay = userRentals.get(i).getDropDayYear();
 
                     //userRentals.get(i).setActive(0);
                     //db.updateTransaction(new Transaction(userRentals.get(i)));
@@ -167,7 +170,7 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
     }
 
     public void onClick(View v) {
-        if (v.getId()==R.id.logout_button) {
+        if (v.getId() == R.id.logout_button) {
             AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
             dlgAlert.setMessage("Successfully Logged Out");
             dlgAlert.setPositiveButton("OK",
@@ -180,53 +183,14 @@ public class CancelHold extends Activity implements View.OnClickListener, Adapte
             dlgAlert.setCancelable(true);
             dlgAlert.create().show();
         }
-
-        if (v.getId() == R.id.cancel) {
-
-            AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-            dlgAlert.setPositiveButton("OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            Intent I = new Intent(getApplicationContext(), Inventory.class);
-                            startActivity(I);
-                        }
-                    });
-            dlgAlert.setCancelable(true);
-            dlgAlert.create().show();
-           /* ArrayList<Book> books = new ArrayList<>(db.getAllBooks());
-
-            for(int i=0; i<books.size();i++){
-                if(books.get(i).getTitle().equals(bookToCancel)){
-
-
-                    String[] fifteen;
-                    fifteen = books.get(i).getFifteen();
-
-                    System.out.println("Canceling This Title: " + books.get(i).getTitle()+ " on: " + pickUpDay + " " + dropDay);
-                    for(int j=pickUpDay; j<dropDay+1;j++){
-                        fifteen[j] = "0";
-                    }
-
-                    books.get(i).setFifteen(fifteen);
-                    books.get(i).setFifteenString(fifteen);
-
-
-                    db.updateBook(books.get(i));
-                }*/
-            }
-
-            //update the transaction to be 0
-            AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
-            dlgAlert.setMessage("Search Books");
-            dlgAlert.setPositiveButton("OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            Intent I = new Intent(getApplicationContext(), Inventory.class);
-                            startActivity(I);
-                        }
-                    });
-            dlgAlert.setCancelable(true);
-            dlgAlert.create().show();
-            }
-
+        else if (v.getId() == R.id.issuebook) {
+            Intent I = new Intent(getApplicationContext(), IssueBook.class);
+            startActivity(I);
         }
+        else if (v.getId() == R.id.cancel) {
+            Intent I = new Intent(getApplicationContext(), Inventory.class);
+            startActivity(I);
+        }
+    }
+}
+

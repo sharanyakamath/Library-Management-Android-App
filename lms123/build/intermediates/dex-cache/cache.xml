@@ -3,93 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/palak/.android/build-cache/b576f1d7d9907e4eb04afd942c04b55299e9bd61/output/jars/classes.jar"
+        jar="/home/palak/.android/build-cache/d62388cadc41a565e2e9fa7d2b15d006835c99bb/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_a3c33dd9220b4e567b5a7c4aa8f7d4215078d8fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_73f3cfe09ef5323cc2b00d7b169715bafee8631a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/.android/build-cache/5b3956a2cd651a226507dddfa873775a7ee4282d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_ece2367e612d98b150cd7f5ef89f44e148ee6b29.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3a6c59f58c1497506af276f9f27cd8872a99cdef/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/.android/build-cache/c7075a31a1863e40f10b29ba3fdc5395deceffb9/output/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_b441f11ef0b7f54e9009fc95bbddd10dbe52f9f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/.android/build-cache/de5b0267a0a99d380a4dabf1850531de5be7e2ec/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_eaf9e9f00ffd7f3ab4c0f235c07b1b69423b8716.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_743531cee3f9eeeaaa29725b4b0eec277a70e6da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/.android/build-cache/6b7c7cfb46fba9b5280deb258bbdc434142cca1a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_9d630c4e6983900b72abf913ce01d0a8deb8f4a0.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="7b6b24ae4cb4b73be75f5b9636500fe6da8daaf4">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_99a8367752eb9ed00dfc2b98bd84188f28a00546/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/palak/.android/build-cache/c7075a31a1863e40f10b29ba3fdc5395deceffb9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_adca7e70212d0dfb5bb927f00c0d8f48a51ce0c9.jar" />
+        sha1="0da2f8459495e4a30df229e36e0b9a36e496eece">
+        <dex dex="/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/pre-dexed/debug/classes_a7490a3473725057d16b1fd3e10e1a6176c36d1d.jar" />
     </item>
 
 </items>
