@@ -164,10 +164,10 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
                 book.setAuthor(cursor.getString(2));
                 book.setIsbn(cursor.getString(3));
                 book.setPrice(Double.parseDouble(cursor.getString(4)));
-                System.out.println("cursor.getString(5)" + cursor.getString(5));
-                book.setFifteenArray(cursor.getString(5));
-                System.out.println("cursor.getString(6)" + cursor.getString(6));
-                book.setSixteenArray(cursor.getString(6));
+//                System.out.println("cursor.getString(5)" + cursor.getString(5));
+//                book.setFifteenArray(cursor.getString(5));
+//                System.out.println("cursor.getString(6)" + cursor.getString(6));
+//                book.setSixteenArray(cursor.getString(6));
                 // Add book to books
                 books.add(book);
             } while (cursor.moveToNext());
