@@ -1,0 +1,7 @@
+#Thu Mar 29 12:08:37 IST 2018
+base.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak (1)\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ab57bdf38903cfa8e12e5508242a42f864309a40
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak (1)\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c4a51f136982aced052fb8ff661c987a8b70a65d\\classes.dex
+base.1=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak (1)\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c4a51f136982aced052fb8ff661c987a8b70a65d
+file.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak (1)\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ab57bdf38903cfa8e12e5508242a42f864309a40\\classes.dex

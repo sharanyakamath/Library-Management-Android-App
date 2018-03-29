@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/vl" />
+
+    <Spinner
+        android:id="@+id/transactions_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/black" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="215dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/welcome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/mainText"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of books issued : "
+        android:id="@+id/issued_books"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fine(Rs): "
+        android:id="@+id/fine"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Search Book"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/issuebook"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Issue Book"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="LOGOUT"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

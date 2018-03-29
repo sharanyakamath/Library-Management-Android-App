@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Downloads\Library-Management-Android-App-palak (1)\Library-Management-Android-App-palak\lms123\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="502812d4635790a09f1b013a408cbcd6ba6e66cd">
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak (1)\Library-Management-Android-App-palak\lms123\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ab57bdf38903cfa8e12e5508242a42f864309a40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Downloads\Library-Management-Android-App-palak (1)\Library-Management-Android-App-palak\lms123\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\user\Downloads\Library-Management-Android-App-palak (1)\Library-Management-Android-App-palak\lms123\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c4a51f136982aced052fb8ff661c987a8b70a65d\classes.dex" />
+    </item>
+
+</items>
