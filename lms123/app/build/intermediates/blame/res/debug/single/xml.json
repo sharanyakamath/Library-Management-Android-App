@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/palak/AndroidStudioProjects/lms123/app/build/intermediates/res/merged/debug/xml/searchable.xml",
-        "source": "/home/palak/AndroidStudioProjects/lms123/app/src/main/res/xml/searchable.xml"
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\Library-Management-Android-App\\lms123\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\home\\palak\\AndroidStudioProjects\\lms123\\app\\src\\main\\res\\xml\\searchable.xml"
     }
 ]
