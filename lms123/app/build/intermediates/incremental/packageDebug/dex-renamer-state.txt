@@ -1,4 +1,4 @@
-#Thu Mar 29 23:29:37 IST 2018
+#Fri Mar 30 10:43:38 IST 2018
 base.0=C\:\\Users\\user\\Downloads\\Library-Management-Android-App-palak\\Library-Management-Android-App-palak\\lms123\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b5ba7e621e341497fa9a7c167f013bfb74e4c960
 renamed.1=classes.dex
 renamed.0=classes2.dex

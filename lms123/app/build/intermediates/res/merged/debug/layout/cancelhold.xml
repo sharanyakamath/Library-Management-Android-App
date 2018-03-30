@@ -8,30 +8,37 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="                                  Name: "
+        android:text="Name: "
         android:id="@+id/mainText"
         android:textColor="#FFF"
-        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
         android:padding="5dp"
-        android:layout_gravity="" />
+       />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No of books issued : "
         android:id="@+id/issued_books"
         android:textColor="#FFF"
+        android:textSize="20dp"
         android:layout_marginTop="0dp"
+        android:layout_marginLeft="100dp"
         android:padding="5dp"
-        android:layout_gravity="center_horizontal" />
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="                                   Fine(Rs): "
+        android:text="Fine: Rs. "
         android:id="@+id/fine"
         android:textColor="#FFF"
+        android:textSize="20dp"
         android:layout_marginTop="0dp"
+        android:layout_marginLeft="100dp"
         android:padding="5dp"
-        android:layout_gravity="" />
+         />
+
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/cancel"
         android:layout_width="200dp"
@@ -40,7 +47,7 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingTop="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         fancy:fb_borderColor="#00bfff"
         fancy:fb_borderWidth="5dp"

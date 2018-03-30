@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:background="@drawable/bg1"
     android:layout_height="match_parent">
 
     <ImageView
@@ -48,8 +47,10 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp" />
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:weightSum="1">
 
@@ -78,7 +79,5 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:background="@drawable/choosedate"
-
         android:layout_marginTop="20dp" />
 </LinearLayout>

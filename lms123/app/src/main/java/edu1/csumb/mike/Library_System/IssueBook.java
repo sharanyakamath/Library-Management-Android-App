@@ -86,7 +86,7 @@ public class IssueBook extends Activity implements View.OnClickListener {
         boolean bookExists = false;
         if (v.getId() == R.id.addbook_button) {
             for (Book book : books) {
-                if (book.getTitle().equals(title) && book.getPrice()>0) {
+                if (book.getTitle().equals(title) && book.getPrice()>=Double.parseDouble(cost)) {
                     price = Double.parseDouble(cost);
                     price = book.getPrice() - price;
                     book.setPrice(price);

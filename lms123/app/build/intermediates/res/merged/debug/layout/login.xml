@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:fancy="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/bg1" android:background="@drawable/new1">
+    android:id="@+id/bg1" android:background="@drawable/admin_details">
 
 
     <EditText
